@@ -1,0 +1,100 @@
+.main {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 43px);
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+  width: 400px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  align-items: center;
+  gap: 50px;
+}
+
+.colored-box {
+  width: 400px;
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.colored-box span {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.label-box {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: flex-start;
+}
+
+.label-box input {
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  height: 50px;
+  border: 0;
+  outline: solid 0px #fff;
+  background: #F0F0F0;
+
+  transition: all 0.3s ease;
+}
+
+.label-box input:hover {
+  outline: solid 0.5px #f5af19;
+}
+
+.label-box input:focus {
+  outline: solid 0.5px #f5af19;
+}
+
+form button {
+  margin-top: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 0;
+  background: #f5af19;
+  color: #fff;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+form button:hover {
+  background: #F57D19;
+}
+
+#success {
+  color: #7DF728;
+  text-decoration: none;
+  margin-top: 5px;
+
+  transition: all 0.3s;
+}
+
+#success:hover {
+  color: #47AC00;
+}

@@ -1,0 +1,56 @@
+table{  
+  position: absolute;
+  z-index: 2;
+  left: 50%; 
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%; 
+  border-collapse: collapse;
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64,64,64,.7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+
+
+td , th{
+  padding: 15px 20px;
+  text-align: center;
+}
+
+th{
+  color: #fafafa;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+tr{
+  width: 100%;
+  background: #CB356B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #BD3F32, #CB356B);
+  
+  transition: 0.3s ease;
+}
+  tr:nth-child(even){
+  background-color: #eeeeee;
+}
+
+tr:hover{
+  filter: brightness(1.2);
+}
+
+td i {
+  color: #000;
+  transition: all .3s ease;
+}
+
+td i:hover {
+  color: #fff;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}

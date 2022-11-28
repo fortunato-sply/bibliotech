@@ -1,0 +1,67 @@
+a {
+  text-decoration: none;
+ }
+ li {
+  list-style: none;
+ }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #3A1C71;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  padding: 4px;
+ }
+
+.nav-box {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.left-nav p {
+  margin-right: 25px;
+  font-size: 16px;
+}
+
+.left-nav i {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+ .nav-links a {
+  color: #fff;
+ }
+
+ .logo {
+  width: 32px;
+ }
+
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  padding-right: 30px;
+  align-items: center;
+ }
+ .menu li:hover {
+  background-color: #f5af19;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+ }
+ .menu li {
+  font-size: 16px;
+  padding: 5px 14px;
+ }
